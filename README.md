@@ -29,18 +29,18 @@ To install the SDK into your project, follow the steps below:
 You can install the SDK through npm or yarn:
 
 ```bash
-npm install @epic-chain/walletconnect-sdk
+npm install @epicchain/walletconnect-sdk
 ```
 or
 ```bash
-yarn add @epic-chain/walletconnect-sdk
+yarn add @epicchain/walletconnect-sdk
 ```
 
 ### **2. Include the SDK in Your Project**
 Once installed, import the SDK into your codebase:
 
 ```javascript
-import WalletConnect from '@epic-chain/walletconnect-sdk';
+import WalletConnect from '@epicchain/walletconnect-sdk';
 ```
 
 ---
@@ -151,7 +151,7 @@ The **WalletConnect SDK** for EpicChain is designed for a variety of use cases w
 Here’s a simple example to show how you can integrate WalletConnect into your dApp:
 
 ```javascript
-import WalletConnect from '@epic-chain/walletconnect-sdk';
+import WalletConnect from '@epicchain/walletconnect-sdk';
 
 // Create a WalletConnect instance
 const walletConnect = new WalletConnect({
