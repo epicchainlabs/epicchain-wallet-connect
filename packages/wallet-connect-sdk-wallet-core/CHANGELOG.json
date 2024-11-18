@@ -1,0 +1,421 @@
+{
+  "name": "@cityofzion/wallet-connect-sdk-wallet-core",
+  "entries": [
+    {
+      "version": "4.4.0",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.4.0",
+      "date": "Thu, 15 Aug 2024 20:32:03 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Support type 2 transactions and add eth_estimateGas method"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.3.2",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.3.2",
+      "date": "Wed, 14 Aug 2024 19:41:30 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix error to make a transaction in NeoX using AbstractWalletConnectEIP155Adapter"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.3.1",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.3.1",
+      "date": "Tue, 13 Aug 2024 16:12:34 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "adding eth methods"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.3.0",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.3.0",
+      "date": "Wed, 24 Jul 2024 22:09:51 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Added calculateFee method to AbstractWalletConnectEIP155Adapter"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.4",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.2.4",
+      "date": "Thu, 04 Jul 2024 16:40:05 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Change SignClient to Web3Wallet"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.3",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.2.3",
+      "date": "Thu, 20 Jun 2024 21:41:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update neon-dappkit package version"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.4`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.2",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.2.2",
+      "date": "Wed, 19 Jun 2024 20:50:28 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Receive adapter parameters in AbstractWalletConnectEIP155Adapter's getCustomSigner"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.1",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.2.1",
+      "date": "Wed, 19 Jun 2024 20:10:20 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Revert Web3Wallet implementation due to instabilitity in tests. Posponed for a later update"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.2.0",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.2.0",
+      "date": "Fri, 14 Jun 2024 17:37:16 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Add getCustomSigner function to AbstractWalletConnectEIP155Adapter "
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.5",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.1.5",
+      "date": "Thu, 13 Jun 2024 13:03:31 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Swap SignClient with Web3Wallet"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.4",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.1.4",
+      "date": "Wed, 29 May 2024 17:20:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Upgrade @walletconnect/sign-client "
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.3`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.3",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.1.3",
+      "date": "Mon, 27 May 2024 18:11:27 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update dependencies"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.2`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.2",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.1.2",
+      "date": "Wed, 15 May 2024 17:13:35 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.1",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.1.1",
+      "date": "Thu, 02 May 2024 14:02:01 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "fix invalid \"gas\" key error when try to send a transaction"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.1.0",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.1.0",
+      "date": "Wed, 17 Apr 2024 20:02:56 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Implemented wipe methods"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.0.2",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.0.2",
+      "date": "Wed, 10 Apr 2024 17:22:27 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Dump NeonDappkit version"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.2.2`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "4.0.0",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v4.0.0",
+      "date": "Thu, 01 Feb 2024 21:44:32 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Ethereum support"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.1.2",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v3.1.2",
+      "date": "Mon, 27 Nov 2023 20:31:39 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Changed neon-dappkit version to the latest"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.1.1",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v3.1.1",
+      "date": "Mon, 27 Nov 2023 17:52:40 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.1.0",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v3.1.0",
+      "date": "Mon, 06 Nov 2023 13:13:50 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "New method to allow signing a transaction multiple times by different wallets before invoking it"
+          },
+          {
+            "comment": "A new method has been added so that the wallet can calculate the fee for an invocation"
+          },
+          {
+            "comment": "Changing the type of events  to avoid conflicts with the core"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.1.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "3.0.0",
+      "tag": "@cityofzion/wallet-connect-sdk-wallet-core_v3.0.0",
+      "date": "Thu, 28 Sep 2023 13:38:24 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Compatibility version feature in connection and request flow "
+          },
+          {
+            "comment": "Changes on WcWalletSDK constructor signature, the `methods` option is now mandatory"
+          }
+        ],
+        "patch": [
+          {
+            "comment": "New method in adapter to accept a signingCallback"
+          },
+          {
+            "comment": "update WcSdk with new neo3-signer/neon-signer for: new signMessage version to allow signing without salt"
+          },
+          {
+            "comment": "Downgrade neonjs to fix build problems in react native and consume new version of wallet-connect-sdk-core"
+          },
+          {
+            "comment": "Change abstract adapter name and fix bug in rejectProposal function"
+          },
+          {
+            "comment": "Consume new version of core, neo3-invoker and neo3-signer"
+          },
+          {
+            "comment": "Consume version 1.5.1 of neon-invoker and neo3-invoker"
+          },
+          {
+            "comment": "Adjust version number with the other packages"
+          },
+          {
+            "comment": "Fix problem in the execution speed of the adapter method"
+          },
+          {
+            "comment": "New encryption methods: The encrypt, decrypt, and encrypt From Array methods have been implemented"
+          },
+          {
+            "comment": "Consume new version of neon-dappkit"
+          }
+        ],
+        "major": [
+          {
+            "comment": "Fix problems with Neonjs import and export WalletConnect types"
+          },
+          {
+            "comment": "The very first release"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.0.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "comment": "Update package.json version(s)",
+      "type": "none",
+      "packageName": "@cityofzion/wallet-connect-sdk-wallet-core"
+    }
+  ],
+  "packageName": "@cityofzion/wallet-connect-sdk-wallet-core",
+  "email": "github-actions@github.com"
+}

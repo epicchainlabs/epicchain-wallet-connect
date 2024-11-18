@@ -1,0 +1,181 @@
+{
+  "name": "@cityofzion/wallet-connect-sdk-svelte",
+  "entries": [
+    {
+      "version": "0.3.5",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.3.5",
+      "date": "Mon, 24 Jun 2024 18:58:37 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix emitter"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.4",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.3.4",
+      "date": "Thu, 20 Jun 2024 21:41:28 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.4`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.3",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.3.3",
+      "date": "Wed, 29 May 2024 17:20:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Upgrade @walletconnect/sign-client "
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.3`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.2",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.3.2",
+      "date": "Mon, 27 May 2024 18:11:27 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.2`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.1",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.3.1",
+      "date": "Wed, 15 May 2024 17:13:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Implemented a Contextual Messages on WcSdk"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.1`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.3.0",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.3.0",
+      "date": "Wed, 17 Apr 2024 20:02:56 GMT",
+      "comments": {
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Implemented wipe methods"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.2",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.2.2",
+      "date": "Wed, 10 Apr 2024 17:22:27 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Hotfix an error during the build process using SvelteKit and TurboRepo."
+          },
+          {
+            "comment": "Fix documentation links on NPM website"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Update package.json version(s)"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.2.2`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.2.0",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.2.0",
+      "date": "Mon, 27 Nov 2023 17:52:40 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Consume new way to initialize the core"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.2.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "0.1.0",
+      "tag": "@cityofzion/wallet-connect-sdk-svelte_v0.1.0",
+      "date": "Mon, 06 Nov 2023 13:13:50 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "The Wallet Connect SDK to use with Svelte Applications"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@cityofzion/wallet-connect-sdk-core\" to `3.1.0`"
+          }
+        ]
+      }
+    }
+  ]
+}
