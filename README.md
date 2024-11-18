@@ -1,7 +1,3 @@
-Sure! Here's a README file design for a **WalletConnect SDK for the EpicChain ecosystem**, focusing on clarity, detailed explanation, and an engaging design:
-
----
-
 # **EpicChain WalletConnect SDK**
 Welcome to the **EpicChain WalletConnect SDK**! This toolkit is your gateway to integrating the EpicChain blockchain with various wallet providers seamlessly. With WalletConnect, users can securely interact with your decentralized applications (dApps) using their mobile wallets, providing a simple, user-friendly experience while interacting with the EpicChain ecosystem.
 
