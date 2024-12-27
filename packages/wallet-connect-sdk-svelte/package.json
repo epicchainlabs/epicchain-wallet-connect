@@ -1,16 +1,17 @@
 {
-  "name": "@cityofzion/wallet-connect-sdk-svelte",
-  "version": "0.3.5",
+  "name": "@epicchain/wallet-connect-sdk-svelte",
+  "version": "1.0.0",
   "description": "Wallet-Connect-SDK to be used on Svelte Apps",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CityOfZion/wallet-connect-sdk.git"
+    "url": "git+https://github.com/epicchainlabs/epicchain-wallet-connect.git"
   },
   "bugs": {
-    "url": "https://github.com/CityOfZion/wallet-connect-sdk/issues"
+    "url": "https://github.com/epicchainlabs/epicchain-wallet-connect/issues"
   },
   "keywords": [
+    "epicchain",
     "wallet",
     "wallet-connect",
     "javascript",

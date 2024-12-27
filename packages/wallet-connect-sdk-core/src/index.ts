@@ -1,6 +1,6 @@
 import SignClient from '@walletconnect/sign-client'
 import { SessionTypes, SignClientTypes } from '@walletconnect/types'
-import { GetVersionResult } from '@cityofzion/neon-core/lib/rpc'
+import { GetVersionResult } from '@epicchain/epicvault-core/lib/rpc'
 import {
   Neo3Signer,
   SignMessagePayload,

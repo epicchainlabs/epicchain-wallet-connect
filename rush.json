@@ -5,7 +5,7 @@
   "nodeSupportedVersionRange": ">=14.15.0",
   "ensureConsistentVersions": true,
   "repository": {
-    "url": "https://github.com/CityOfZion/wallet-connect-sdk",
+    "url": "https://github.com/epicchainlabs/epicchain-wallet-connect",
     "defaultBranch": "main",
     "defaultRemote": "origin"
   },

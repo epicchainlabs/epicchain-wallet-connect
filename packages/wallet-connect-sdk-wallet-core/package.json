@@ -1,16 +1,17 @@
 {
-  "name": "@cityofzion/wallet-connect-sdk-wallet-core",
-  "version": "4.4.0",
+  "name": "@epicchain/wallet-connect-sdk-wallet-core",
+  "version": "1.0.0",
   "description": "Wallet-Connect-SDK wallet-side core functionality",
   "keywords": [
-    "wallet",
+    "epicchain",
     "wallet-connect",
+    "wallet",
     "javascript",
     "typescript",
     "libraries"
   ],
-  "author": "Raul Duarte Pereira <https://github.com/raulduartep>",
-  "homepage": "https://github.com/CityOfZion/wallet-connect-sdk#readme",
+  "author": "xmoohad <https://github.com/xmoohad>",
+  "homepage": "https://github.com/epicchainlabs/epicchain-wallet-connect#readme",
   "license": "MIT",
   "main": "dist/index",
   "directories": {
@@ -21,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CityOfZion/wallet-connect-sdk.git"
+    "url": "git+https://github.com/epicchainlabs/epicchain-wallet-connect.git"
   },
   "scripts": {
     "build": "tsc",

@@ -356,4 +356,4 @@ It will return an object like this:
 
 ## Examples
 
-Check the [examples folder](https://github.com/CityOfZion/wallet-connect-sdk/tree/main/examples) to learn more.
+Check the [examples folder](https://github.com/epicchainlabs/epicchain-wallet-connect/tree/main/examples) to learn more.
