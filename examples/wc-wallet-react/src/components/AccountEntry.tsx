@@ -14,7 +14,7 @@ import {
 } from '@chakra-ui/react'
 import { FileHelper } from '../helpers/FileHelper'
 import { useCallback, useEffect, useState } from 'react'
-import { wallet } from '@cityofzion/neon-core'
+import { wallet } from '@epicchain/epicvault-core'
 import { useAccountContext } from '../context/AccountContext'
 import { DEFAULT_NETWORKS } from '../constants'
 

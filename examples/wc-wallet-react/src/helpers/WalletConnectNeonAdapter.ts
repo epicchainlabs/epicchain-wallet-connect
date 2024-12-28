@@ -1,5 +1,5 @@
 import { AbstractWalletConnectNeonAdapter, WalletInfo } from '@cityofzion/wallet-connect-sdk-wallet-react'
-import { Account } from '@cityofzion/neon-core/lib/wallet'
+import { Account } from '@epicchain/epicvault-core/lib/wallet'
 
 export class WalletConnectNeonAdapter extends AbstractWalletConnectNeonAdapter {
   constructor(

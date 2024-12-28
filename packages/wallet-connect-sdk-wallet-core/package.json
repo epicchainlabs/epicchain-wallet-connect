@@ -32,9 +32,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@cityofzion/neon-core": "5.5.1",
-    "@cityofzion/neon-js": "5.5.1",
-    "@cityofzion/wallet-connect-sdk-core": "workspace:*",
+    "@epicchain/epicvault-core": "1.0.1",
+    "@epicchain/epicvault-js": "1.0.1",
+    "@epicchain/wallet-connect-sdk-core": "workspace:*",
     "@walletconnect/jsonrpc-utils": "^1.0.8",
     "@walletconnect/types": "2.13.0",
     "moment": "^2.29.4",

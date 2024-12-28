@@ -1,5 +1,5 @@
 import React, { useContext, useMemo, useState } from 'react'
-import { Account } from '@cityofzion/neon-core/lib/wallet'
+import { Account } from '@epicchain/epicvault-core/lib/wallet'
 import { DEFAULT_CHAIN, DEFAULT_NETWORKS } from '../constants'
 import { Chain } from '@cityofzion/wallet-connect-sdk-wallet-react'
 

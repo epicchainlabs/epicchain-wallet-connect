@@ -35,7 +35,7 @@
     "publishDocs:prod": "aws s3 sync ./docs s3://marketing-neon-wallet/prod/wksdk/react --acl public-read"
   },
   "dependencies": {
-    "@cityofzion/wallet-connect-sdk-wallet-core": "workspace:*"
+    "@epicchain/wallet-connect-sdk-wallet-core": "workspace:*"
   },
   "peerDependencies": {
     "react": "*"

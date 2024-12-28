@@ -11,27 +11,27 @@
   },
   "projects": [
     {
-      "packageName": "@cityofzion/wallet-connect-sdk-core",
+      "packageName": "@epicchain/wallet-connect-sdk-core",
       "projectFolder": "packages/wallet-connect-sdk-core",
       "shouldPublish": true
     },
     {
-      "packageName": "@cityofzion/wallet-connect-sdk-react",
+      "packageName": "@epicchain/wallet-connect-sdk-react",
       "projectFolder": "packages/wallet-connect-sdk-react",
       "shouldPublish": true
     },
     {
-      "packageName": "@cityofzion/wallet-connect-sdk-wallet-core",
+      "packageName": "@epicchain/wallet-connect-sdk-wallet-core",
       "projectFolder": "packages/wallet-connect-sdk-wallet-core",
       "shouldPublish": true
     },
     {
-      "packageName": "@cityofzion/wallet-connect-sdk-wallet-react",
+      "packageName": "@epicchain/wallet-connect-sdk-wallet-react",
       "projectFolder": "packages/wallet-connect-sdk-wallet-react",
       "shouldPublish": true
     },
     {
-      "packageName": "@cityofzion/wallet-connect-sdk-svelte",
+      "packageName": "@epicchain/wallet-connect-sdk-svelte",
       "projectFolder": "packages/wallet-connect-sdk-svelte",
       "shouldPublish": true
     }
