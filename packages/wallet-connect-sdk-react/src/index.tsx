@@ -16,7 +16,7 @@ import {
   Neo3Invoker,
   Neo3Signer,
   RpcResponseStackItem,
-} from '@cityofzion/neon-dappkit-types'
+} from '@epicchain/epicvault-dappkit-types'
 import TypedEventEmitter from 'typed-emitter'
 import EventEmitter from 'events'
 

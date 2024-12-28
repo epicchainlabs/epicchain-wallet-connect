@@ -1,7 +1,7 @@
 <script lang="ts">
   import { get } from 'svelte/store'
   import { WCSDKStore } from '@cityofzion/wallet-connect-sdk-svelte'
-  import { SignMessageVersion, TypeChecker } from '@cityofzion/neon-dappkit-types'
+  import { SignMessageVersion, TypeChecker } from '@epicchain/epicvault-dappkit-types'
   import type { NetworkType } from '@cityofzion/wallet-connect-sdk-core'
   import Toastify from 'toastify-js'
 

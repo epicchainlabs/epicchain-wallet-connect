@@ -24,7 +24,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@cityofzion/neon-dappkit-types": "^0.3.1",
+    "@epicchain/epicvault-dappkit-types": "^0.3.1",
     "@cityofzion/wallet-connect-sdk-core": "file:../../packages/wallet-connect-sdk-core",
     "@cityofzion/wallet-connect-sdk-svelte": "file:../../packages/wallet-connect-sdk-svelte"
   },

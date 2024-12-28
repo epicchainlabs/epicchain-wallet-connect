@@ -2,12 +2,12 @@ import SignClient from '@walletconnect/sign-client'
 import { SessionTypes, SignClientTypes } from '@walletconnect/types'
 import { GetVersionResult } from '@epicchain/epicvault-core/lib/rpc'
 import {
-  Neo3Signer,
+  EpicChainSigner,
   SignMessagePayload,
   SignedMessage,
   ContractInvocation,
   ContractInvocationMulti,
-  Neo3Invoker,
+  EpicChainInvoker,
   Signer,
   Arg,
   RpcResponseStackItem,
@@ -16,7 +16,7 @@ import {
   DecryptFromArrayResult,
   BuiltTransaction,
   CalculateFee,
-} from '@cityofzion/neon-dappkit-types'
+} from '@epicchain/epicvault-dappkit-types'
 import EventEmitter from 'events'
 import TypedEventEmitter from 'typed-emitter'
 /**
@@ -101,7 +101,7 @@ export type NetworkVersion = GetVersionResult & {
 /**
  * An adapter of SignClient to work easily with Neon Wallet
  */
-class WcSdk implements Neo3Invoker, Neo3Signer {
+class WcSdk implements EpicChainInvoker, EpicChainSigner {
   /**
    * The WalletConnect Library
    */
@@ -629,4 +629,4 @@ class WcSdk implements Neo3Invoker, Neo3Signer {
 // The WcSdk export is duplicated in two different ways to accommodate both CommonJS and Vite builds.
 export { WcSdk }
 export default WcSdk
-export * from '@cityofzion/neon-dappkit-types'
+export * from '@epicchain/epicvault-dappkit-types'

@@ -13,7 +13,7 @@ importers:
       '@cityofzion/neon-core':
         specifier: 5.5.1
         version: 5.5.1
-      '@cityofzion/neon-dappkit-types':
+      '@epicchain/epicvault-dappkit-types':
         specifier: 0.4.0
         version: 0.4.0
       '@walletconnect/sign-client':
@@ -44,7 +44,7 @@ importers:
 
   ../../packages/wallet-connect-sdk-react:
     dependencies:
-      '@cityofzion/neon-dappkit-types':
+      '@epicchain/epicvault-dappkit-types':
         specifier: 0.4.0
         version: 0.4.0
       '@cityofzion/wallet-connect-sdk-core':
@@ -2817,14 +2817,14 @@ packages:
       - encoding
     dev: false
 
-  /@cityofzion/neon-dappkit-types@0.4.0:
+  /@epicchain/epicvault-dappkit-types@0.4.0:
     resolution: {integrity: sha512-UjveRGBuj/OlwlX39IutXFPBalosc+dZClC32+wm5JLOsAy12vFeI+dNFe6nnV8HIrFRZSLcHyfq08ILA68LVQ==}
     dev: false
 
   /@cityofzion/neon-dappkit@0.5.1:
     resolution: {integrity: sha512-EIO+UvrufXKBwXSuJ5HJJnpM5qq8rDmbxg7c+esS531UNXLL8PRxR9Lb9LxeYsgELI48ZF0oUhn/SX4VlnM/uA==}
     dependencies:
-      '@cityofzion/neon-dappkit-types': 0.4.0
+      '@epicchain/epicvault-dappkit-types': 0.4.0
       '@cityofzion/neon-js': 5.5.1
       crypto-browserify: 3.12.0
       crypto-js: 4.2.0

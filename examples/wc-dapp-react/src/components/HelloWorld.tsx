@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { TypeChecker } from '@cityofzion/neon-dappkit-types'
+import { TypeChecker } from '@epicchain/epicvault-dappkit-types'
 import { NetworkType, useWalletConnect, SignMessageVersion } from '@cityofzion/wallet-connect-sdk-react'
 import { dappMethods, networks } from '../Constants'
 import 'toastify-js/src/toastify.css'
