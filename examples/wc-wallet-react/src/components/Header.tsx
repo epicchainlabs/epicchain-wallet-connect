@@ -4,10 +4,10 @@ import LogoutIcon from './icon/LogoutIcon'
 import { FileHelper } from '../helpers/FileHelper'
 import { useAccountContext } from '../context/AccountContext'
 import { useCallback, useEffect, useState } from 'react'
-import { NeonInvoker, NeonParser } from '@cityofzion/neon-dappkit'
+import { NeonInvoker, NeonParser } from '@epicchain/epicvault-dappkit'
 
 const chainMeta = {
-  name: 'Neo3',
+  name: 'EpicChain',
   logo: 'https://cryptologos.cc/logos/neo-neo-logo.svg',
 }
 

@@ -1,4 +1,4 @@
 export * from './adapters'
 export * from './sdk'
 export * from './types'
-export * from '@cityofzion/wallet-connect-sdk-core'
+export * from '@epicchain/wallet-connect-sdk-core'

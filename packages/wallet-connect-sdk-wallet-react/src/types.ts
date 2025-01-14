@@ -9,7 +9,7 @@ import {
   TSessionProposal,
   TSessionRequest,
   TWalletCoreEvents,
-} from '@cityofzion/wallet-connect-sdk-wallet-core'
+} from '@epicchain/wallet-connect-sdk-wallet-core'
 import { ReactNode } from 'react'
 import TypedEventEmitter from 'typed-emitter'
 

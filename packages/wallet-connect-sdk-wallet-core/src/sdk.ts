@@ -19,7 +19,7 @@ import {
   TAdapterMethodParam,
   ResponseErrorCode,
 } from './types'
-import { COMPATIBILITY_VERSION } from '@cityofzion/wallet-connect-sdk-core'
+import { COMPATIBILITY_VERSION } from '@epicchain/wallet-connect-sdk-core'
 import { sleep } from './utils'
 import Web3Wallet from '@walletconnect/web3wallet'
 import Core from '@walletconnect/core'

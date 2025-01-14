@@ -18,7 +18,7 @@
     "typescript",
     "libraries"
   ],
-  "author": "Kenedy Ribeiro <https://github.com/endkeyCoder>",
+  "author": "xmoohad <https://github.com/xmoohad>",
   "scripts": {
     "clean": "rm -rf dist/",
     "build": "rollup -c --silent",

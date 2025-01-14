@@ -1,6 +1,6 @@
 import { writable, type Writable, type Readable, derived } from 'svelte/store'
 import SignClient from '@walletconnect/sign-client'
-import { CoreEvents, WcSdk } from '@cityofzion/wallet-connect-sdk-core'
+import { CoreEvents, WcSdk } from '@epicchain/wallet-connect-sdk-core'
 import type {
   NetworkType,
   Method,
@@ -17,7 +17,7 @@ import type {
   SignedMessage,
   NetworkVersion,
   WalletInfo,
-} from '@cityofzion/wallet-connect-sdk-core'
+} from '@epicchain/wallet-connect-sdk-core'
 import type { SessionTypes, SignClientTypes } from '@walletconnect/types'
 import TypedEventEmitter from 'typed-emitter'
 import { EventEmitter } from 'events'

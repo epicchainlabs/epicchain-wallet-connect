@@ -9,7 +9,7 @@ import WcSdk, {
   NetworkType,
   Method,
   CoreEvents,
-} from '@cityofzion/wallet-connect-sdk-core'
+} from '@epicchain/wallet-connect-sdk-core'
 import {
   ContractInvocationMulti,
   EncryptedPayload,
@@ -336,4 +336,4 @@ export const WalletConnectProvider: React.FC<{
 
 export const useWalletConnect = () => useContext(WalletConnectContext)
 
-export * from '@cityofzion/wallet-connect-sdk-core'
+export * from '@epicchain/wallet-connect-sdk-core'

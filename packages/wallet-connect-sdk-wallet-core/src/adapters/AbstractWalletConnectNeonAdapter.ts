@@ -1,4 +1,4 @@
-import { NeonInvoker, NeonSigner, NeonParser } from '@cityofzion/neon-dappkit'
+import { NeonInvoker, NeonSigner, NeonParser } from '@epicchain/epicvault-dappkit'
 import * as NeonCore from '@epicchain/epicvault-core'
 import * as NeonJs from '@epicchain/epicvault-js'
 import { TAdapterMethodParam } from '../types'

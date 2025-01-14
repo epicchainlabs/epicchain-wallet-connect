@@ -1,12 +1,12 @@
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/CityOfZion/wallet-connect-sdk/main/.github/resources/images/coz.png"
+    src="https://raw.githubusercontent.com/epicchain/wallet-connect-sdk/main/.github/resources/images/coz.png"
     width="200px;">
 </p>
 
 <p align="center">
-  WalletConnect 2.0 React SDK Wallet-side for Neo
-  <br/> Made by <b>COZ.IO</b>
+  WalletConnect 2.0 React SDK Wallet-side for EpicChain
+  <br/> Made by <b>EpicChain Lab's</b>
 </p>
 
 - [Installation](#installation)
@@ -14,7 +14,7 @@
 - [Usage](#usage)
 - [Important information](#important-information)
 - [Code examples](#code-examples)
-- [Using WITHOUT React.js](https://www.npmjs.com/package/@cityofzion/wallet-connect-sdk-wallet-core)
+- [Using WITHOUT React.js](https://www.npmjs.com/package/@epicchain/wallet-connect-sdk-wallet-core)
 
 ## Installation
 
@@ -23,13 +23,13 @@ Install the dependencies on your application
 ### NPM
 
 ```
-npm i @cityofzion/wallet-connect-sdk-wallet-react
+npm i @epicchain/wallet-connect-sdk-wallet-react
 ```
 
 ### YARN
 
 ```
-yarn add @cityofzion/wallet-connect-sdk-wallet-react
+yarn add @epicchain/wallet-connect-sdk-wallet-react
 ```
 
 ## Setup
@@ -40,7 +40,7 @@ and then create a new `Project`, it's super easy, with just a few fields on the 
 Wrap WalletConnectWalletProvider around your App and declare the options
 
 ```tsx
-import { WalletConnectWalletProvider, TOptions } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { WalletConnectWalletProvider, TOptions } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 const options: TOptions = {
   clientOptions: {
@@ -70,7 +70,7 @@ ReactDOM.render(
 From now on, every time you need to use WalletConnect, you can simply use the `useWalletConnectWallet` hook:
 
 ```ts
-import { useWalletConnectWallet } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { useWalletConnectWallet } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 export default function MyComponent() {
   const context = useWalletConnectWallet()
@@ -83,7 +83,7 @@ export default function MyComponent() {
 When some request arrives, we use an adapter to really do the rpc request and returns the result. So registering the adapter
 is mandatory for requests flow and follow the adapter interface is also mandatory.
 
-You can extend our abstract adapter or create your own. To extend, use the `WalletConnectNeo3Adapter` class or create your own
+You can extend our abstract adapter or create your own. To extend, use the `WalletConnectEpicChainAdapter` class or create your own
 that implements the `IWalletConnectAdapter` interface.
 
 There are two ways to pass your adapter to sdk.
@@ -91,7 +91,7 @@ There are two ways to pass your adapter to sdk.
 Passing in the sdk constructor.
 
 ```ts
-import { WalletConnectWalletProvider, TOptions } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { WalletConnectWalletProvider, TOptions } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 const options: TOptions = {
   clientOptions: {}, // SignClient options
@@ -112,7 +112,7 @@ ReactDOM.render(
 Or, call the setAdapter function from Context.
 
 ```ts
-import { useWalletConnectWallet } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { useWalletConnectWallet } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 export default function MyComponent() {
   const { setAdapter } = useWalletConnectWallet()
@@ -126,7 +126,7 @@ export default function MyComponent() {
 By default, the sdk won't ask authorization for some request methods, you are able to switch what methods it will happens:
 
 ```ts
-import { WalletConnectWalletProvider, TOptions } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { WalletConnectWalletProvider, TOptions } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 const options: TOptions = {
   clientOptions: {}, // SignClient options
@@ -151,7 +151,7 @@ ReactDOM.render(
 Start the process of establishing a new connection. It will create a new proposal that needs to be accepted or rejected.
 
 ```ts
-import { useWalletConnectWallet } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { useWalletConnectWallet } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 export default function MyComponent() {
   const { connect } = useWalletConnectWallet()
@@ -167,7 +167,7 @@ export default function MyComponent() {
 ### Disconnect from a specific dapp session
 
 ```ts
-import { useWalletConnectWallet } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { useWalletConnectWallet } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 export default function MyComponent() {
   const { disconnect, sessions } = useWalletConnectWallet()
@@ -182,7 +182,7 @@ export default function MyComponent() {
 ### Approve a specific connection proposal
 
 ```ts
-import { useWalletConnectWallet } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { useWalletConnectWallet } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 export default function MyComponent() {
   const { approveProposal, proposals } = useWalletConnectWallet()
@@ -202,7 +202,7 @@ export default function MyComponent() {
 ### Reject a specific connection proposal
 
 ```ts
-import { useWalletConnectWallet } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { useWalletConnectWallet } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 export default function MyComponent() {
   const { rejectProposal, proposals } = useWalletConnectWallet()
@@ -219,7 +219,7 @@ export default function MyComponent() {
 Remembering, you need to register the adapter to this function works
 
 ```ts
-import { useWalletConnectWallet } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { useWalletConnectWallet } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 export default function MyComponent() {
   const { approveRequest, requests } = useWalletConnectWallet()
@@ -234,7 +234,7 @@ export default function MyComponent() {
 ### Reject a specific session request
 
 ```ts
-import { useWalletConnectWallet } from '@cityofzion/wallet-connect-sdk-wallet-react'
+import { useWalletConnectWallet } from '@epicchain/wallet-connect-sdk-wallet-react'
 
 export default function MyComponent() {
   const { rejectRequest, requests } = useWalletConnectWallet()

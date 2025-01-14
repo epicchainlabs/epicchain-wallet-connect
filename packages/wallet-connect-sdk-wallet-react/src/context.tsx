@@ -10,7 +10,7 @@ import {
   TSessionProposal,
   TSessionRequest,
   TWalletCoreEvents,
-} from '@cityofzion/wallet-connect-sdk-wallet-core'
+} from '@epicchain/wallet-connect-sdk-wallet-core'
 import TypedEventEmitter from 'typed-emitter'
 import EventEmitter from 'events'
 
